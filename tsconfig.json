@@ -10,5 +10,6 @@
     "paths": { "@/*": ["src/*"] },
     "strict": true
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "./__tests__/**/*"],
+  "exclude": ["node_modules", "dist"] // tsconfigの対象でないディレクトリ・ファイル
 }
