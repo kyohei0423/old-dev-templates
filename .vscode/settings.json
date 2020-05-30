@@ -1,7 +1,4 @@
 {
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.enable": false,
-  "eslint.run": "onSave"
+  "prettier.disableLanguages": ["markdown"]
 }
